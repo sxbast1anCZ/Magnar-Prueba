@@ -10,6 +10,7 @@ Scraper en TypeScript para la sección **Procedimientos Sancionatorios** del [SN
 ## Instalación
 
 ```bash
+git clone https://github.com/sxbast1anCZ/Magnar-Prueba.git
 npm install
 ```
 
