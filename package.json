@@ -1,0 +1,31 @@
+{
+  "name": "magnar-prueba",
+  "version": "1.0.0",
+  "description": "SNIFA Sancionatorio scraper — extrae expedientes y descarga PDFs",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "start:built": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sxbast1anCZ/Magnar-Prueba.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sxbast1anCZ/Magnar-Prueba/issues"
+  },
+  "homepage": "https://github.com/sxbast1anCZ/Magnar-Prueba#readme",
+  "dependencies": {
+    "axios": "^1.18.0",
+    "cheerio": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
